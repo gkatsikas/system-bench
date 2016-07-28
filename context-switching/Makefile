@@ -1,4 +1,4 @@
 all:
-	gcc -o exe main.c -lpthread
+	gcc -o cont_sw_exe main.c -lpthread
 clean:
-	rm -f exe *.o
+	rm -f cont_sw_exe *.o
