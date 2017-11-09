@@ -5,6 +5,8 @@ To measure context switching with different schedulers, change to folder **conte
   * make
   * ./cont_sw_exe -c <core> -s <sched_policy> -p <sched_priority>
 
-Example usage: ./cont_sw_exe -c <core> [-s <sched_policy> -p <sched_priority>]
-|->   sched_policy: normal,batch,rr,fifo
-|-> sched_priority: [-19,19] for normal,batch or [1,99] for rr,fifo
+Example usage:
+
+	`./cont_sw_exe -c <core> -s [normal or batch]  -p [-19, 19]`
+
+	`./cont_sw_exe -c <core> -s [rr or fifo]  -p [1,99]`
