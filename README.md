@@ -1,5 +1,10 @@
-# system-bench
+System Benchmarks
+=========
+
 A set of benchmarks to measure critical system operations such as context switching time and the impact of using different scheduling policies on the context switching.
+
+Context Switching
+----
 
 To measure context switching with different schedulers, change to folder [context-switching][const_sw] and do:
   * `make`
