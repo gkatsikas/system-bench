@@ -16,4 +16,7 @@ Example usage:
 
 	./cont_sw_exe -c <core> -s [rr or fifo]  -p [1,99]
 
+This repository was used to measure the time a modern server requires for context switching, in the context of network functions virtualization (NFV).
+An extensive study in NFV profiling along with experimental results are reported in our [Elsevier journal article](http://www.sciencedirect.com/science/article/pii/S0164121217300055).
+
 [const_sw]: context-switching/
